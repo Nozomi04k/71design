@@ -962,7 +962,27 @@ h2::after {
   .fv {
     background-image: url(../images/sp1.webp);
   }
+  h1 img {
+    width: 55%;
+  }
+  .scrolldown {
+    right: 90px;
+    bottom: 408px;
+  }
+  .scrolldown span {
+    /*テキストの形状*/
+    font-size: 13px;
+  }
 
+  .scrolldown:after {
+    width: 50px;
+    left: 45px;
+  }
+  .keyvisual_scroll {
+    width: 25vw;
+    bottom: 44%;
+    right: -18%;
+  }
   .concept {
     background-image: url(../images/sp2.webp);
   }
@@ -1028,6 +1048,139 @@ h2::after {
   .contact {
     background-image: url(../images/sp6.webp);
   }
+  .contact-inner {
+    max-width: 250px;
+    margin: 5% auto 0;
+  }
+  .Form {
+    margin-top: 10px;
+    
+  }
+  .Form-Item {
+    padding: 5px;
+    
+  }
+
+  .Form-Item:nth-child(5) {
+    border-bottom: 1px solid #ddd;
+  }
+  .Form-Item-Label {
+    width: 100%;
+    padding-bottom: 5px;
+    letter-spacing: 0.05em;
+    /* font-weight: bold; */
+    font-size: 16px;
+  }
+  @media screen and (max-width: 480px) {
+    .Form-Item-Label {
+      max-width: inherit;
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+    }
+  }
+  .Form-Item-Label.isMsg {
+    margin-top: 8px;
+    margin-bottom: auto;
+  }
+  @media screen and (max-width: 480px) {
+    .Form-Item-Label.isMsg {
+      margin-top: 0;
+    }
+  }
+  .Form-Item-Label-Required {
+    border-radius: 6px;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 48px;
+    display: inline-block;
+    text-align: center;
+    background: #5bc8ac;
+    color: #fff;
+    font-size: 14px;
+  }
+  @media screen and (max-width: 480px) {
+    .Form-Item-Label-Required {
+      border-radius: 4px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      width: 32px;
+      font-size: 10px;
+    }
+  }
+  .Form-Item-Input {
+    border: none;
+    border-radius: 99rem;
+  
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 20px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #fff;
+    font-size: 14px;
+    box-sizing: border-box;
+    color: #333;
+  }
+  @media screen and (max-width: 480px) {
+    .Form-Item-Input {
+      margin-left: 0;
+      margin-top: 18px;
+      height: 40px;
+      flex: inherit;
+      font-size: 15px;
+    }
+  }
+  .Form-Item-Textarea {
+    border: none;
+    border-radius: 15px;
+  
+    padding: 1em;
+  
+    height: 216px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #fff;
+    font-size: 14px;
+    box-sizing: border-box;
+    color: #333;
+  }
+  @media screen and (max-width: 480px) {
+    .Form-Item-Textarea {
+      margin-top: 18px;
+      margin-left: 0;
+      height: 200px;
+      flex: inherit;
+      font-size: 15px;
+    }
+  }
+  .Form-Btn {
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+    display: block;
+    letter-spacing: 0.05em;
+    background: #0074e8;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+  }
+  @media screen and (max-width: 480px) {
+    .Form-Btn {
+      margin-top: 24px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      width: 160px;
+      font-size: 16px;
+    }
   h2 {
     position: absolute;
     top: 170px;
