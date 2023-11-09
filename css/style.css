@@ -990,6 +990,42 @@ h2::after {
   .skill {
     background-image: url(../images/sp4.webp);
   }
+  .skill-icon {
+    display: flex;
+    justify-content: space-between;
+  }
+  .skill-item {
+    width: 55%;
+    padding: 10px;
+  }
+  .skill-item p {
+    margin-top: 10px;
+  }
+  .skill-inner {
+    text-align: center;
+    width: 85%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 65px;
+    color: #000;
+    /* 正方形の幅-文字の高さ/2 で上下真ん中に要素がくる */
+    top: calc((45% - 1em) / 2);
+    left: 0;
+    right: 0;
+    line-height: 25px;
+    font-size: 12px;
+  }
+  .skill-height {
+    position: relative;
+    padding: 60px;
+  }
+  .skill-text p {
+    text-align: left;
+    padding: 20px;
+    font-feature-settings: "palt";
+    letter-spacing: 0.1em;
+    line-height: 1.6;
+    font-size: 1vw;
+  }
   .works {
     background-image: url(../images/sp5.webp);
   }
