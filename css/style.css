@@ -995,28 +995,24 @@ h2::after {
     justify-content: space-between;
   }
   .skill-item {
-    width: 55%;
+    width: 40%;
     padding: 10px;
   }
   .skill-item p {
     margin-top: 10px;
   }
   .skill-inner {
-    text-align: center;
     width: 85%;
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 65px;
-    color: #000;
+
     /* 正方形の幅-文字の高さ/2 で上下真ん中に要素がくる */
     top: calc((45% - 1em) / 2);
     left: 0;
     right: 0;
-    line-height: 25px;
-    font-size: 12px;
+    line-height: 5px;
+    font-size: 8px;
   }
   .skill-height {
-    position: relative;
-    padding: 60px;
+    padding: 25px;
   }
   .skill-text p {
     text-align: left;
