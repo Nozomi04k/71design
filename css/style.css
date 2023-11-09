@@ -380,7 +380,7 @@
 
   /* ハンバーガーメニュー */
   .sp_nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -966,7 +966,20 @@ h2::after {
   .concept {
     background-image: url(../images/sp2.webp);
   }
-
+  .circle_width {
+    width: 60%;
+    border-radius: none;
+    background: none;
+  }
+  .circle_height p:first-child {
+    font-size: 1.6vw;
+  }
+  .circle_height p:nth-child(2) {
+    font-size: 2vw;
+  }
+  .circle_height p:last-child {
+    font-size: 1.6vw;
+  }
   .sp_only {
     display: block;
   }
