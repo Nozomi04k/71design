@@ -399,9 +399,7 @@
     padding: 20px;
     color: #fff;
     font-size: 18px;
-    font-family: "irohamaru", "ab-tombo-bold", "游ゴシック体", YuGothic,
-      "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN",
-      "Hiragino Sans", sans-serif;
+    font-family: "ab-tombo-bold";
   }
 }
 
@@ -511,6 +509,7 @@ main {
 .fv-nav ul li {
   padding: 0 20px;
   color: #fff;
+  font-family: "ab-tombo-bold";
 }
 h1 img {
   width: 80%;
